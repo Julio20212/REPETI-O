@@ -1,0 +1,27 @@
+package AVFormativa;
+
+import java.util.Scanner;
+
+public class Ativrepeticao5a {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+
+	int idade = 0, soma=0;
+	double media, maior = 0;
+	
+	for(int i=1; i<=20; i++) {
+		System.out.print("Informe a idade da " +i+ "° pessoa: ");
+		idade = ler.nextInt();
+		System.out.println("A idade da " +i+ "° pessoa é :" +idade);
+		soma=soma+idade;
+		System.out.println("A soma das idades é: " + soma);
+		if (idade >= 18) {
+			maior++;
+		}
+		media=soma/20;
+		System.out.println("A média das idades é: " + media);
+		System.out.println("As pessoa maiores de idade são: " + maior );
+		}
+	}
+}
