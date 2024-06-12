@@ -1,0 +1,17 @@
+package AVFormativa;
+
+import java.util.Scanner;
+
+public class Ativrepticao2b {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int soma = 0;			
+		
+		while (soma <=15 ) {
+			soma += soma; 
+			System.out.println("A soma dos números são: " + soma );				
+			soma++;
+		}
+	}
+}
