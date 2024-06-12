@@ -1,0 +1,21 @@
+package AVFormativa;
+
+import java.util.Scanner;
+
+public class Ativrepeticao3b {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	String nome;
+	int i = 0;
+		
+	System.out.print("Informe seu nome: ");
+	nome = ler.next();
+		
+	while  (i<=10) {
+	System.out.println("O seu nome é: "+nome);
+	i++;
+	}
+	ler.close();
+	}
+}
